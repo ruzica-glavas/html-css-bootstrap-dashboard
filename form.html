@@ -44,9 +44,88 @@
         </div>
       </nav>
 
-
       
-    
+      <form class=" container g-3">
+        <div class="col-sm-6">
+          <label for="validationServer01" class="form-label">Nome dell'Autore</label>
+          <input type="text" class="form-control is-valid" id="validationServer01" value="" placeholder="Inserisci il nome dell'autore" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <label for="validationServer02" class="form-label">Cognome dell'Autore</label>
+          <input type="text" class="form-control is-valid" id="validationServer02" value="" placeholder="Inserisci il congnome dell'autore" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-12">
+          <label for="validationServer02" class="form-label">Titolo</label>
+          <input type="text" class="form-control is-valid" id="validationServer02" value="" placeholder="Inserisci il titolo del libro" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+
+          
+          <div class="row">
+        
+        <div class="col-sm-12 col-lg-4">
+          
+          <label for="validationServer04" class="form-label">Genere</label>
+          <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+            <option selected disabled value="">Scegli il genere</option>
+            <option>Fiction</option>
+            <option>Avventura</option>
+            <option>Horror</option>
+          </select>
+          <div id="validationServer04Feedback" class="invalid-feedback">
+            Seleziona un Genere valido.
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-lg-4">
+          <label for="validationServer03" class="form-label">Anno di Pubblicazione</label>
+          <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" placeholder="Inserisci l'anno" required>
+          <div id="validationServer03Feedback" class="invalid-feedback">
+            Aggiungi un Anno di Pubbliazione valido.
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-lg-4">
+          <label for="validationServer05" class="form-label">ISBN#</label>
+          <input type="text" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" placeholder="Inserisci il codice ISBN#" required>
+          <div id="validationServer05Feedback" class="invalid-feedback">
+            Aggiungi un codiceISBN# valido.
+          </div>
+        </div>
+        </div>
+        
+
+
+        
+
+        <div class="mb-3">
+          <label for="validationTextarea" class="form-label">Note</label>
+          <textarea class="form-control" id="validationTextarea" placeholder="inserisci eventuali note sul libro" required></textarea>
+          <div class="invalid-feedback">
+            Please enter a message in the textarea.
+          </div>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Disponibile anche in Digitale
+          </label>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
       
 
 
